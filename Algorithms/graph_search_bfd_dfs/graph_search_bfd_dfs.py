@@ -1,3 +1,4 @@
+# In this program, we will defne functions performing bfs and dfs.
 def dfs(graph, current_vertex, target_value, visited = None):
       if visited is None:
     visited = []

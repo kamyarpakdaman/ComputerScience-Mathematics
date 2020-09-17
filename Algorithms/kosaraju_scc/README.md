@@ -1,4 +1,4 @@
-#### kosaraju Algorithm
+#### Kosaraju Algorithm
 
 In these two programs, as the names indicate, we perform two implementations of the famous Kosaraju's algorithm
 for computing the Strongly Connected Components (SCCs) of a directed graph:

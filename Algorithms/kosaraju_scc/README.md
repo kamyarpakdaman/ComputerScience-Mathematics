@@ -5,7 +5,7 @@ for computing the Strongly Connected Components (SCCs) of a directed graph:
 
 * Iteration implementation
 
-This implementation is quite efficient and works well for massive graphs.
+This implementation is quite efficient and works well for massive graphs with O(n+m).
 
 * Recursion implementation
 

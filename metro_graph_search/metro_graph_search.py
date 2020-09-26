@@ -279,7 +279,9 @@ def get_end():
         print("Sorry, that's not a landmark we have data on. Let's try this again...")
         return get_end()
 
-# This function finds the nearest metro stations to origin and destination. Note that, because some landmarks have more than one station, there is sometimes more than one route between landmarks. That means it’s our job to collect all of the shortest routes between stations and then compare them based on path length.
+# This function finds the nearest metro stations to origin and destination. Note that, because some landmarks have more than one station, 
+# there is sometimes more than one route between landmarks. That means it’s our job to collect all of the shortest routes between stations 
+# and then compare them based on path length.
 
 def get_route(start_point, end_point):
     

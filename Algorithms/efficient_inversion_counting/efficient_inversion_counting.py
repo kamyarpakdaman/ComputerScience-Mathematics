@@ -78,7 +78,7 @@ for item in file:
 
 arr = np.array(lst) 
 
-number_of_inversions = inv_counter(arr)
+sorted_list, number_of_inversions = inv_counter(arr)
 # print(number_of_inversions)
 
 print('\nThanks for reviewing')

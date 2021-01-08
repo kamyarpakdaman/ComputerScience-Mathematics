@@ -1,7 +1,7 @@
 # In this program we implement the Median Maintenance algorithm. In this algorithm, we use MinHeap and 
 # MaxHeap data structures for step-by-step calculation of the median of a sequence of numbers when the
 # numbers are fed as a stream. This is a fast solution with O(log i), where i is the number of numbers
-# in the stream.
+# in the stream. Note that this program doesn't apply for streams containing repetitions.
 
 # At each step, we keep the half smaller values in the low heap which is a MaxHeap, and the larger half
 # in the high heap which is a MinHeap. Consequently, after adding each new number, our new median would

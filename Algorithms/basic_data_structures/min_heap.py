@@ -41,9 +41,9 @@ class MinHeap:
 
         # Saving the min value to a new variable.
 
-        min = self.heap_list[1]
+        min_val = self.heap_list[1]
 
-        # Replacing the retrieved mean with the last element of the heap, which has no children.
+        # Replacing the retrieved min with the last element of the heap, which has no children.
 
         self.heap_list[1] = self.heap_list[self.count]
         self.count -= 1
@@ -55,8 +55,8 @@ class MinHeap:
         # Performing the .heapify_down() to re-order the heap.
 
         self.heapify_down()
-        print('Min value retrieved: {}'.format(min))
-        return min
+        print('Min value retrieved: {}'.format(min_val))
+        return min_val
 
     # Adding a new element to the heap.
 

@@ -10,7 +10,7 @@
 # At the end we report the sum of weighted completion times of the resulting schedule.
 
 import numpy as np
-fhand = open('w1q1.txt')
+fhand = open('raw.txt')
 
 # Here we build a dictionary which will contain the possible ratios for tasks as keys and the corresponding
 # tasks as values in a list. E. g.:

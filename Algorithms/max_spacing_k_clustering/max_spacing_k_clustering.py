@@ -8,7 +8,10 @@
 # Note that there is at most one edge per a given pair of nodes.
 
 # We build analgorithm to cluster these vertices in 4 clusters, and then we find out the maximum spacing of this
-# clustering, that is, the minimum distance between a given pair of clusters.
+# clustering, that is, the minimum distance between a given pair of clusters. This is a greedy algorithm which, at each step,
+# detects a pair of nodes that are closest to each other than any other pair of nodes, and clusters them together. If either or
+# both of them are already in clusters, the algorithm combines all nodes in one cluster. The process goes on until we reach the
+# desired number of clusters, k.
 
 import heapq
 import math
